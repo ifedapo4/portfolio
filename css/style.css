@@ -130,6 +130,9 @@ nav .navbar-nav li a #active {
 	nav .navbar-nav li a {
 		text-align: center;
 	}
+	.info {
+		padding: 0;
+	}
 }
 
 @media only screen and (max-width: 768px) {
@@ -144,6 +147,9 @@ nav .navbar-nav li a #active {
 	nav .navbar-nav li a {
 		text-align: center;
 	}
+	.info {
+		padding: 0;
+	}
 }
 
 @media only screen and (max-width: 992px) {
@@ -157,6 +163,9 @@ nav .navbar-nav li a #active {
 
 	nav .navbar-nav li a {
 		text-align: center;
+	}
+	.info {
+		padding: 0;
 	}
 
 }
