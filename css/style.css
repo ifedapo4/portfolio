@@ -130,9 +130,6 @@ nav .navbar-nav li a #active {
 	nav .navbar-nav li a {
 		text-align: center;
 	}
-	.info {
-		padding: 0;
-	}
 }
 
 @media only screen and (max-width: 768px) {
@@ -147,9 +144,6 @@ nav .navbar-nav li a #active {
 	nav .navbar-nav li a {
 		text-align: center;
 	}
-	.info {
-		padding: 0;
-	}
 }
 
 @media only screen and (max-width: 992px) {
@@ -163,9 +157,6 @@ nav .navbar-nav li a #active {
 
 	nav .navbar-nav li a {
 		text-align: center;
-	}
-	.info {
-		padding: 0;
 	}
 
 }
@@ -487,7 +478,7 @@ ul li a {
 
 ul li a:hover {
 	outline: none;
-	text-decoration: none
+	text-decoration: none;
 }
 
 img {
@@ -498,7 +489,7 @@ img {
 }
 
 a.grade{
-	color: #ffff;
+	color: #007bff;
 	margin-left: 0px;
 	letter-spacing: 2px;
 	padding-left: 3px; 
@@ -537,13 +528,23 @@ a.grade{
 		padding: 0px;
 	}
 	.content {
-		padding: 10px 10px 30px 10px;
+		padding: 30px 10px 30px 10px;
 	}
 	.subheading {
 		padding: 10px 10px 30px 10px;
 	}
 	.subheading2 {
 	    padding: 40px 10px 30px 10px;
+	}
+	.contact {
+		padding: 0;
+	}
+	.info {
+		padding: 0;
+	}
+	.text3 {
+		text-align: center;
+		padding: 0;
 	}
 
 
@@ -553,13 +554,16 @@ a.grade{
 		padding: 0px;
 	}
 	.content {
-		padding: 10px 10px 30px 10px;
+		padding: 30px 10px 30px 10px;
 	}
 	.subheading {
 		padding: 10px 10px 30px 10px;
 	}
 	.subheading2 {
 	    padding: 40px 10px 30px 10px;
+	}
+	.info {
+		padding: 0;
 	}
 
 
@@ -569,7 +573,7 @@ a.grade{
 		padding: 0px;
 	}
 	.content {
-		padding: 10px 10px 30px 10px;
+		padding: 30px 10px 30px 10px;
 	}
 	.subheading {
 		padding: 10px 10px 30px 10px;
@@ -577,8 +581,9 @@ a.grade{
 	.subheading2 {
 	    padding: 40px 10px 30px 10px;
 	}
-
-
+	.info {
+		padding: 0;
+	}
 }
 /* resume ends*/
 
@@ -628,17 +633,25 @@ figcaption {
 }
 
 .info{
-	padding: 20px;
+	padding: 20px 0px 30px 0px;
 	align-items: center;
 	text-align: center;
-	padding-bottom: 40px;
 	font-size: 20px;
+	display: grid;
+}
+
+#ico {
+	color: #007bff;
+	padding-bottom: ;
+	padding: 5px;
+	text-align: center;
 }
 
 .number{
 	color: #ffff;
 	outline: none;
 	text-decoration: none;
+	padding: 0;
 }
 
 .number:hover{
@@ -646,10 +659,19 @@ figcaption {
 	text-decoration: none;
 }
 
+
+#text3{
+	color: #ffff;
+	text-align: center;
+	padding: 0;
+	padding-left: px;
+}
+
 .text3{
 	color: #ffff;
-	padding: 3px;
-	padding-left: 20px;
+	text-align: center;
+	padding: 0;
+	padding-left: px;
 }
 
 /*scroll up*/
